@@ -1,0 +1,45 @@
+{
+ "_doc": "Vùng giao diện app phủ lên video dọc 1080x1920 (pixel). Số ƯỚC LƯỢNG theo giao diện phổ biến 2026 trên điện thoại 9:16 (đã cộng biên cho máy màn dài/ngắn); khi app đổi giao diện thì sửa ở đây. 'ads' = phần chỉ có ở bản quảng cáo (nhãn Được tài trợ, nút CTA). Loại: 'thanh' = dải chữ/nút, 'icon' = cột nút tròn. Bản quảng cáo: nút CTA nằm dưới caption và đẩy caption lên (vùng chu_thich_ads).",
+ "tiktok": {
+  "ten": "TikTok",
+  "vung": [
+   {"ma": "thanh_tren", "nhan": "Following / For You / tìm kiếm", "x0": 0, "y0": 0, "x1": 1080, "y1": 200, "loai": "thanh"},
+   {"ma": "cot_phai", "nhan": "avatar, tim, bình luận, lưu, chia sẻ, đĩa nhạc", "x0": 920, "y0": 720, "x1": 1080, "y1": 1700, "loai": "icon"},
+   {"ma": "chu_thich", "nhan": "tên tài khoản, caption, dòng nhạc", "x0": 0, "y0": 1500, "x1": 900, "y1": 1770, "loai": "thanh"},
+   {"ma": "chu_thich_ads", "nhan": "caption bị đẩy lên + nhãn Được tài trợ (ads)", "x0": 0, "y0": 1440, "x1": 900, "y1": 1500, "loai": "thanh", "ads": true},
+   {"ma": "cta", "nhan": "nút CTA quảng cáo (dưới caption)", "x0": 24, "y0": 1660, "x1": 900, "y1": 1760, "loai": "thanh", "ads": true},
+   {"ma": "thanh_duoi", "nhan": "thanh điều hướng", "x0": 0, "y0": 1780, "x1": 1080, "y1": 1920, "loai": "thanh"}
+  ]
+ },
+ "reels": {
+  "ten": "Instagram Reels",
+  "vung": [
+   {"ma": "thanh_tren", "nhan": "Reels / camera", "x0": 0, "y0": 0, "x1": 1080, "y1": 180, "loai": "thanh"},
+   {"ma": "cot_phai", "nhan": "tim, bình luận, chia sẻ, thêm, nhạc", "x0": 940, "y0": 980, "x1": 1080, "y1": 1740, "loai": "icon"},
+   {"ma": "chu_thich", "nhan": "tên tài khoản, caption, nhạc", "x0": 0, "y0": 1520, "x1": 920, "y1": 1780, "loai": "thanh"},
+   {"ma": "chu_thich_ads", "nhan": "caption bị đẩy lên + nhãn Được tài trợ (ads)", "x0": 0, "y0": 1450, "x1": 920, "y1": 1520, "loai": "thanh", "ads": true},
+   {"ma": "cta", "nhan": "nút CTA quảng cáo (dưới caption)", "x0": 24, "y0": 1680, "x1": 900, "y1": 1770, "loai": "thanh", "ads": true},
+   {"ma": "thanh_duoi", "nhan": "thanh điều hướng", "x0": 0, "y0": 1800, "x1": 1080, "y1": 1920, "loai": "thanh"}
+  ]
+ },
+ "facebook": {
+  "ten": "Facebook Reels",
+  "vung": [
+   {"ma": "thanh_tren", "nhan": "Reels / tạo / tìm kiếm", "x0": 0, "y0": 0, "x1": 1080, "y1": 190, "loai": "thanh"},
+   {"ma": "cot_phai", "nhan": "thích, bình luận, chia sẻ", "x0": 930, "y0": 900, "x1": 1080, "y1": 1700, "loai": "icon"},
+   {"ma": "chu_thich", "nhan": "tên trang, caption", "x0": 0, "y0": 1490, "x1": 910, "y1": 1780, "loai": "thanh"},
+   {"ma": "chu_thich_ads", "nhan": "caption bị đẩy lên + nhãn Được tài trợ (ads)", "x0": 0, "y0": 1440, "x1": 910, "y1": 1490, "loai": "thanh", "ads": true},
+   {"ma": "cta", "nhan": "nút CTA quảng cáo (dưới caption)", "x0": 24, "y0": 1680, "x1": 900, "y1": 1770, "loai": "thanh", "ads": true},
+   {"ma": "thanh_duoi", "nhan": "thanh điều hướng", "x0": 0, "y0": 1790, "x1": 1080, "y1": 1920, "loai": "thanh"}
+  ]
+ },
+ "shorts": {
+  "ten": "YouTube Shorts",
+  "vung": [
+   {"ma": "thanh_tren", "nhan": "tìm kiếm / menu", "x0": 0, "y0": 0, "x1": 1080, "y1": 170, "loai": "thanh"},
+   {"ma": "cot_phai", "nhan": "thích, không thích, bình luận, chia sẻ, remix", "x0": 920, "y0": 820, "x1": 1080, "y1": 1680, "loai": "icon"},
+   {"ma": "chu_thich", "nhan": "tiêu đề, kênh, đăng ký", "x0": 0, "y0": 1470, "x1": 900, "y1": 1730, "loai": "thanh"},
+   {"ma": "thanh_duoi", "nhan": "thanh điều hướng", "x0": 0, "y0": 1780, "x1": 1080, "y1": 1920, "loai": "thanh"}
+  ]
+ }
+}
