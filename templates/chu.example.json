@@ -1,0 +1,17 @@
+{
+ "_ghi_chu": "Mọi chữ hiện trên video. Sửa chữ ở đây rồi render lại; mốc giờ, vị trí, kiểu chữ nằm ở project.py. Lời nói (phụ đề, text note) phải là nguyên văn người nói.",
+ "phu_de": [
+  ["A", 1.20, 3.60, "tóc chị giờ cứ khô cứng", "k"],
+  ["A", 3.60, 6.40, "chải là rụng, đi đâu cũng phải buộc lên", "k"],
+  ["B", 3.00, 5.10, "do tóc bị uốn nhuộm *nhiều lần*"]
+ ],
+ "note": {
+  "hook":     {"tren": "tóc chị giờ cứ", "khoa": "khô cứng"},
+  "nguyen_nhan": {"tren": "do tóc bị", "khoa": "uốn nhuộm", "duoi": "nhiều lần"},
+  "sai_lam":  {"khoa": "Đừng", "duoi": "chải khi tóc còn ướt"}
+ },
+ "chu": {
+  "buoc_1": "Bước 1 · Gội làm sạch",
+  "cau_chot": "Tóc khỏe là phải từ bên trong"
+ }
+}
