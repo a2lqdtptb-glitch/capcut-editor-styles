@@ -9,6 +9,8 @@ Thư viện đi kèm skill **capcut-editor** (agent dựng video quảng cáo sp
 | `styles/<mã>/helpers.py` | Hàm vẽ chữ riêng của phong cách |
 | `lib/note_dong.py` + `NOTE_DONG.md` | 10 kiểu note động (nét bút, gõ phím, gạch đỏ, neon…) |
 | `lib/chu.py` + `CHU.md` | Chữ hiển thị đọc từ `chu.json` của dự án |
+| `lib/phu_de.py` + `PHU_DE.md` | Thư viện phụ đề: 7 kiểu chữ × 5 hiệu ứng (quét, nối từ, một từ, cắt, mờ), chọn tự do, không gắn với dạng video |
+| `lib/the_so_lieu.py` | Thẻ số liệu nhảy số (motion graphic) — chạy riêng: `python lib/the_so_lieu.py spec.json out.mp4` |
 | `qa/ui_overlay.py` + `ui_zones.json` | Kiểm chữ/hình bị giao diện TikTok/Reels/Facebook/Shorts che |
 | `templates/` | Mẫu `chu.json`, bản biến thể |
 
@@ -40,3 +42,4 @@ Quy ước code: biến/hàm viết thường hoặc bắt đầu bằng `_` (en
 ## Lịch sử
 
 - 2026-11-13 — tạo repo (skill v3.27): chuyển Luxury, Mix, 10 kiểu note động ra khỏi SKILL.md; thêm `chu.json` (chữ thành biến, bản biến thể) và QA phủ giao diện app.
+- 2026-11-13 — (skill v3.28) thêm thư viện phụ đề `lib/phu_de.py` + `PHU_DE.md` (học từ @song.soonf, @lamdiphuc) và thẻ số liệu `lib/the_so_lieu.py`.
