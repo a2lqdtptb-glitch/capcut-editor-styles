@@ -1,0 +1,19 @@
+{
+ "_doc": "Danh mục phong cách. 'engine': phong cách có sẵn trong render_engine (chỉ cần PHONG_CACH). 'repo': cần nạp file trong repo. 'de_xuat' = gợi ý chọn ở hộp thoại đầu video. Thêm phong cách mới: thêm một dòng ở đây + thư mục styles/<ma>/ (STYLE.md, helpers.py nếu có).",
+ "phong_cach": [
+  {"ma": "cuon_hut", "ten": "Cuốn hút", "nguon": "engine", "phong_cach_engine": "cuon_hut",
+   "mo_ta": "nhịp nhanh, text note động từ frame 0, phụ đề chữ mảnh, chữ lặn sau người, lia nhòe",
+   "de_xuat": "tư vấn trị liệu, chia sẻ kiến thức, feedback đông người", "mac_dinh": true},
+  {"ma": "nhe_nhang", "ten": "Nhẹ nhàng", "nguon": "engine", "phong_cach_engine": "nhe_nhang",
+   "mo_ta": "nhịp thong thả, tiêu đề tình huống + chữ nhấn Anton, phụ đề vàng kem",
+   "de_xuat": "quy trình dịch vụ thư giãn, vlog không gian, feedback một người kể chậm"},
+  {"ma": "luxury", "ten": "Luxury", "nguon": "repo", "phong_cach_engine": "cuon_hut",
+   "file": "styles/luxury/STYLE.md", "nap": ["styles/luxury/helpers.py"],
+   "mo_ta": "khối chữ hook serif kem + chữ mảnh gõ dần, nhãn công nghệ nghiêng trượt ra, dòng công dụng nhỏ mỗi cảnh",
+   "de_xuat": "giới thiệu công nghệ/máy/liệu trình cao cấp, quy trình không lời có kết quả sau liệu trình"},
+  {"ma": "mix", "ten": "Mix tổng hợp chữ trend", "nguon": "repo", "phong_cach_engine": "cuon_hut",
+   "file": "styles/mix/STYLE.md", "nap": ["lib/note_dong.py"], "dat_truoc": "nd_mix = True",
+   "mo_ta": "nền Cuốn hút, phối 3–5 kiểu chữ trend động (nét bút, gõ phím, gạch đỏ, neon, con số, khoanh tròn…)",
+   "de_xuat": "kiến thức dạng liệt kê, quy trình nhiều bước, vlog vui"}
+ ]
+}
