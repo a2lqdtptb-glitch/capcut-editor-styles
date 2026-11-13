@@ -1,0 +1,5 @@
+{
+ "_ke_thua": "chu.json",
+ "_ghi_chu": "Bản biến thể: chỉ ghi phần khác chu.json. Render: CHU=chu_b.json python render_engine.py ... (đổi tên thư mục ra để không ghi đè bản A).",
+ "chu": {"cau_chot": "Tóc mềm từ lần gội đầu tiên"}
+}
